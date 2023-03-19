@@ -109,7 +109,7 @@ Script in template:
 	color.Output = ansi.NewAnsiStdout()
 
 	usage = strings.Replace(usage, `$%version%$`, version, 1)
-	opts, _ := docopt.ParseArgs(usage, os.Args[1:], fmt.Sprintf("Codeforces Tool (cf) %v", version))
+	opts, _ := docopt.ParseArgs(usage, os.Args[1:], fmt.Sprintf("Codeforces Tool (cf) minimal %v", version))
 	opts[`{version}`] = version
 
 	cfgPath, _ := homedir.Expand(configPath)
