@@ -4,7 +4,7 @@ Codeforces Tool is a command-line interface tool for [Codeforces](https://codefo
 
 It's fast, small, cross-platform and powerful.
 
-[Usage](#usage)
+[Features](#features) | [Usage](#usage) | [Template Example](#template-example)
 
 ## Features
 
